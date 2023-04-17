@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    max-width: 100%;
 }
 .navigation-bar {
     display: flex;
@@ -11,6 +13,7 @@ body {
     padding-left: 120px;
     padding-right: 120px;
     padding-bottom: 70px;
+    max-width: 100%;
 }
 ul {
     list-style: none;
@@ -49,6 +52,7 @@ ul {
     margin-top: 5px;
     border-radius: 3px;
     border: 7px;
+    cursor: pointer;
 }
 .main-title {
     font-weight: bolder;
@@ -69,6 +73,9 @@ ul {
     margin: 30px;
     max-width: 400px;
 }
+.card-info {
+    align-self: center;
+}
 .second-title {
     font-size: 36px;
     font-weight: bolder;
@@ -79,10 +86,8 @@ ul {
 .empty-box {
     width: 150px;
     height: 150px;
-    border-style: groove;
-    border-color: #3882f6;
-    color: #3882f6;
     border-radius: 20px;
+    border: 3px solid #3882f6;
 }
 .second-container {
     display: flex;
@@ -93,4 +98,65 @@ ul {
 .info, .test {
     text-align: center;
     max-width: 150px;
+}
+.quote-section {
+    display: flex;
+    background-color: #e5e7eb;
+    color: #1f2937
+    align-items: center;
+    justify-content: center;
+}
+.quote {
+    text-align: justify;
+    font-style: italic;
+    font-weight: lighter;
+    max-width: 600px;
+    font-size: x-large;
+}
+.quote-author {
+    display: flex;
+    font-weight: bold;
+    align-self: flex-end;
+}
+.quote-info {
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+}
+.sign-up-info {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 80px;
+    padding-left: 80px;
+    border-radius: 6px;
+}
+.sign-up-bar {
+    padding: 70px;
+}
+.call-to-action {
+    font-weight: bolder;
+    color: solid white;
+    font-size: 18px;
+}
+.second-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid white;
+    font-weight: bolder;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 3px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 20px;
 }
